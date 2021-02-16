@@ -884,7 +884,7 @@ a:focus {
   display: inline-block;
   vertical-align: top;
   text-align: center;
-  color: rgb(13, 255, 0);
+  color: #eee;
 }
 .list-item .actions a:hover {
   color: #2cc5d2;
