@@ -1,21 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <InboxScreen />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import store from "./store";
+import InboxScreen from "./components/InboxScreen.vue";
 
 export default {
-  name: "App",
+  name: "app",
+  store,
   components: {
-    HelloWorld
+    InboxScreen
   }
 };
 </script>
-
 <style>
 @import "./index.css";
 </style>
